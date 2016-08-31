@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_color">#2BAF2B</color>
+
+    <!-- Universal -->
+    <color name="white">#FFFFFF</color>
+    <color name="white_pressed">#F8F8F8</color>
+    <color name="black">#000000</color>
+    <color name="theme_normal">#FC8917</color>
+    <color name="theme_press">#CA6E12</color>
+    <color name="label_color">#999999</color>
+    <color name="list_divider">#DEDEDE</color>
+    <color name="list_divider2">#F5F7F7</color>
+
+    <!-- Bottom Tabbar -->
+    <color name="tabbar_bottom_text_color_normal">#999999</color>
+    <color name="tabbar_bottom_text_color_selected">#333333</color>
+
+    <!-- EditText -->
+    <color name="edittext_bg_round_rectangle_solid_color">#FFFFFF</color>
+    <color name="edittext_bg_rounded_rectangle_stroke_color_normal">#FFFFFF</color>
+    <color name="edittext_bg_rounded_rectangle_stroke_color_focus">#FFFFFF</color>
+    <color name="edittext_hint_color">#8D8D8D</color>
+    <color name="edittext_cursor_color">#2BAF2B</color>
+
+    <!--Button-->
+    <color name="button_bg_rounded_rectangle_solid_color_normal">@color/theme_normal</color>
+    <color name="button_bg_rounded_rectangle_solid_color_pressed">@color/theme_press</color>
+    <color name="button_bg_rounded_rectangle_stroke_color_normal">#129611</color>
+
+    <color name="button_bg_rounded_rectangle_solid_color_gray_normal">#999999</color>
+    <color name="button_bg_rounded_rectangle_solid_color_gray_pressed">#666666</color>
+    <color name="button_bg_rounded_rectangle_stroke_color_gray_normal">#999999</color>
+
+    <color name="button_bg_rounded_rectangle_solid_light_color_normal">#FFFFFF</color>
+    <color name="button_bg_rounded_rectangle_solid_light_color_pressed">#EEEEEE</color>
+    <color name="button_bg_rounded_rectangle_solid_stroke_color">#BBBBBB</color>
+
+    <color name="divider_color">#C8C7CC</color>
+    <color name="blur_normal">#0079FF</color>
+
+</resources>

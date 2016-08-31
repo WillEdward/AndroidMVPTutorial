@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">UPLab</string>
+    <string name="loading_common_text">正在加载&#8230;</string>
+    <string name="exit_tip">再一次点击返回键关闭程序</string>
+    <string name="no_more_data">END</string>
+</resources>

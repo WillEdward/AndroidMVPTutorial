@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="EditTextRoundedRectangle">
+        <item name="android:background">@drawable/edittext_bg_rounded_rectangle</item>
+        <item name="android:textColorHint">@color/edittext_hint_color</item>
+        <item name="android:textCursorDrawable" tools:targetApi="12">@drawable/edittext_cursor</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_height">44dp</item>
+    </style>
+
+    <style name="ButtonRoundedRectangleSolidDark" parent="Button">
+        <item name="android:background">@drawable/button_bg_rounded_rectangle_solid</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ButtonRoundedRectangleSolidLight" parent="Button">
+        <item name="android:background">@drawable/button_bg_rounded_rectangle_solid_light</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- Dialog Style -->
+    <style name="AlertDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- Alert对话框动画 -->
+    <style name="DialogAlertAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/dialog_alert_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_alert_exit</item>
+    </style>
+</resources>
